@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+   android:padding="3dp">
+
+    <TextView
+        android:id="@+id/text_view_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Я буду : "
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_text_plan"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+
+</LinearLayout>
